@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Family_History_of_Heart_Disease__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Family History of Heart Disease</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

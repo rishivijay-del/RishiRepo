@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Paste Image">
+        <div class="slds-m-around_medium">
+            <textarea
+                class="textarea"
+                placeholder="Paste your image here"
+                onpaste={handlePaste}
+                ondrop={handleDrop}
+                ondragover={handleDragOver}
+                rows="10"
+                cols="50">
+            </textarea>
+            <lightning-button label="Post Image" onclick={handlePostImage} class="slds-m-top_medium" variant="brand"></lightning-button>
+            <div if:true={hasImage} class="image-preview">
+                <img src={imageSrc} alt="Pasted Image" />
+            </div>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,31 @@
+/* Limit the image size and add styles for better visibility */
+.image-preview img {
+    max-width: 100%;
+    max-height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Adjust textarea to give it a more modern look */
+.textarea {
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust the card spacing for a cleaner layout */
+.slds-m-around_medium {
+    padding: 10px;
+}
+
+/* Styling the post button */
+.lightning-button {
+    width: 100%;
+    margin-top: 12px;
+}

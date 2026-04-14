@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Upload to SharePoint">
+        <div class="slds-m-around_medium">
+            <lightning-input type="file" 
+                             label="Choose file" 
+                             onchange={handleFileChange}>
+            </lightning-input>
+
+            <lightning-button label="Upload"
+                              variant="brand"
+                              class="slds-m-top_small"
+                              onclick={handleUpload}
+                              disabled={uploading}>
+            </lightning-button>
+
+            <p class="slds-m-top_small">{statusMessage}</p>
+        </div>
+    </lightning-card>
+</template>
